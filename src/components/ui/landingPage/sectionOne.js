@@ -82,7 +82,7 @@ const SectionOne = () => {
         <div className="h-screen relative overflow-hidden">
             <div className="flex justify-center flex-col items-center w-full h-96 p-4 absolute top-1/2 -translate-y-1/2 z-30">
                 <motion.h1 initial='hidden' animate='visible' variants={itemOne} className="mb-3 xl:mb-14 text-4xl xl:text-8xl sm:text-5xl md:text-6xl">Web & Android</motion.h1>
-                <motion.h1 initial='hidden' animate='visible' variants={itemTwo} className="sm:ml-14 text-4xl xl:text-8xl sm:text-5xl md:text-6xl after:content[''] after:w-1 after:h-full after:-right-5 after:bg-blue-500 after:absolute after:animate-blink">Developer</motion.h1>
+                <motion.h1 initial='hidden' animate='visible' variants={itemTwo} className="sm:ml-14 text-4xl xl:text-8xl sm:text-5xl md:text-6xl">Developer</motion.h1>
 
             </div>
             <div className="relative block h-full w-full">
