@@ -19,7 +19,7 @@ const SectionThree = () => {
                 <motion.div
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="w-32 h-32 bg-black z-30 absolute rounded-full top-[20rem] left-[45%] flex justify-center items-center xl:top-[30rem] xl:w-40 xl:h-40 md:top-[25rem]">
+                    className="w-32 h-32 bg-black z-30 absolute rounded-full top-[20rem] left-1/2 -translate-x-1/2 md:left-[45%] md:-translate-x-0 flex justify-center items-center xl:top-[30rem] xl:w-40 xl:h-40 md:top-[25rem]">
                     <p className="text-white select-none">About me</p>
                 </motion.div>
             </Link>
