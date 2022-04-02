@@ -43,17 +43,23 @@ const AboutMePage = () => {
 
                     <h1 className="text-3xl mt-32 sm:text-5xl leading-relaxed sm:leading-relaxed lg:text-8xl lg:leading-relaxed">I Wayan Pande Putra Yudha</h1>
 
-                    <div className="md:flex gap-11">
-                        <div className="mt-16 h-[20rem] md:w-[60rem] md:h-[15rem] lg:h-[30rem] lg:w-[90rem]">
+                    <div className="md:flex gap-11 lg:gap-20">
+                        <div className="mt-16 h-[20rem] md:w-[60rem] md:h-[15rem] lg:h-[30rem] lg:w-[40rem]">
                             <img className="h-full mx-auto rounded-xl w-full object-cover object-top" src={profilePic} alt="I Wayan Pande Putra Yudha" />
                         </div>
 
-                        <div className="mt-16 lg:text-2xl md:text-sm">
-                            <p className="font-medium mb-5">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique, metus eget varius congue, eros neque hendrerit ex, eu tempus lorem tellus sit amet tortor. Phasellus quis luctus mauris. Integer blandit augue odio, ut finibus nisi maximus in.
+                        <div className="mt-16 lg:text-xl md:text-sm lg:w-full">
+                            <p className="font-normal mb-5 lg:leading-[2.9rem] lg:text-3xl">
+                                I am a Web and Android developer based in Bali, Indonesia. Currently I am a Computer Science student at the Udayana University of Bali.
                             </p>
-                            <p>
-                                Cras eget vestibulum lacus. Fusce nec metus ac orci commodo rhoncus. Sed neque leo, consequat quis orci sit amet, accumsan molestie erat. Nam vulputate nisl vitae nisi pretium, id porttitor ante bibendum. Suspendisse feugiat consequat consequat. Integer ut pharetra massa.
+                            <p className=" text-tools&tech lg:mt-14 mt-10">
+                                I have a high interest in mobile apps development and web development dedicated to developing and optimizing <span className="font-semibold">interactive</span>, <span className="font-semibold">user-friendly</span>, and <span className="font-semibold">feature-rich</span> websites and apps.
+                            </p>
+                            <p className=" text-tools&tech lg:mt-14 mt-10">
+                                I have developed excellent skills and experience as a front-end and android developer through my degree, and I supplement these skills through my competency in various programming languages and libraries such as <span className="font-semibold">Html</span>, <span className="font-semibold">CSS</span>, <span className="font-semibold">Javascript</span>, <span className="font-semibold">Kotlin</span> and <span className="font-semibold">React JS</span>.
+                            </p>
+                            <p className=" text-tools&tech lg:mt-14 mt-10">
+                                Aside from my technical skills, I love learning new things, especially in the programming field – looking up some new library or method, transforming it into a simple project, or upgrading past projects using that new insight. I am now looking to further develop and use my skills in a year in industry placement, especially in front-end development and Android development.
                             </p>
                         </div>
 
