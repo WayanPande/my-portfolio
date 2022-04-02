@@ -5,6 +5,7 @@ import SectionThree from "../components/ui/landingPage/sectionThree";
 import SectionTwo from "../components/ui/landingPage/sectionTwo";
 import MainNavigation from "../components/ui/mainNavigation"
 import { motion } from "framer-motion"
+import Helmet from "react-helmet";
 
 const LandingPage = () => {
 
@@ -20,20 +21,27 @@ const LandingPage = () => {
     }
 
     return (
-        <motion.div
-            variants={postPreviewVariants}
-            initial="initial"
-            animate="enter"
-            exit="exit"
-            transition={animationTransition}
-            className="relative" >
-            <MainNavigation />
-            <SectionOne />
-            <SectionTwo />
-            <SectionThree />
-            <SectionFour />
-            <Footer />
-        </motion.div>
+        <>
+            <Helmet>
+                <title>I Wayan Pande Putra Yudha</title>
+                <meta name="description" content="This is my portfolio where my name is I Wayan Pande Putra Yudha and a lot of my friend call me by Yande" />
+            </Helmet>
+
+            <motion.div
+                variants={postPreviewVariants}
+                initial="initial"
+                animate="enter"
+                exit="exit"
+                transition={animationTransition}
+                className="relative" >
+                <MainNavigation />
+                <SectionOne />
+                <SectionTwo />
+                <SectionThree />
+                <SectionFour />
+                <Footer />
+            </motion.div>
+        </>
     )
 }
 
